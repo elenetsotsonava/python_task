@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animal Information</title>
+  </head>
+  <body>
+    {% include 'header.html' %}
+
+    <h2>Random Animal:</h2>
+
+    <h3>{{ animal.name }}</h3>
+
+    <p><strong>Type:</strong> {{animal.characteristics.type}}</p>
+    <p><strong>Weight:</strong> {{animal.characteristics.weight}}</p>
+    <p><strong>Height:</strong> {{animal.characteristics.height}}</p>
+    <p><strong>Lifespan:</strong> {{animal.characteristics.lifespan}}</p>
+    <p><strong>Skin Type:</strong> {{animal.characteristics.skin_type}}</p>
+    <p><strong>Top Speed:</strong> {{animal.characteristics.top_speed}}</p>
+  </body>
+</html>
